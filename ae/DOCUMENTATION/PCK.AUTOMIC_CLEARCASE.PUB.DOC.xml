@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<DOCU name="PCK.AUTOMIC_CLEARCASE.PUB.DOC">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<DOCU_Docu state="1" type="text">
+<DOC><![CDATA[=Supported Platforms=
+
+The functions run on the following platforms:
+
+* Windows Server 2008 R2
+* Windows Server 2008
+* Windows Server 2003
+* Linux Redhat
+* Solaris 10
+
+=Setup=
+
+* Cleartool should be available on the executing host
+
+=Rollback=
+
+The ClearCase actions do not support rollbacks yet.
+]]></DOC>
+</DOCU_Docu>
+</DOCU>
+</uc-export>
