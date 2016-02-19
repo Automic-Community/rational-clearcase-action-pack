@@ -1,0 +1,8 @@
+*** Variables ***
+#--- Action Name ------------
+#${ACTION_NAME}    NAME OF ACTION
+#--- Promptset AGENT & LOGIN --------------
+${PRT_AGENT}      &AGENT#
+${PRT_LOGIN}      &LOGIN#
+#--- Promptset PCK.AUTOMIC_CLEARCASE... --------------
+#${PRT_GENERIC_DIMENSIONS_COMMAND}    &UC4RB_DMC_GEN_COMMAND#
