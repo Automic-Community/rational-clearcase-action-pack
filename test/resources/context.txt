@@ -9,20 +9,27 @@ Resource          messages.txt
 #- CONTEXT VARIABLES ---
 ${_AGENT}         /
 ${_LOGIN}         /
+${_WINDOWS_PATH}    /
+${_UNIX_PATH}     /
 ${_WORKING_DIR}    /
+${_OS}            /
 
 *** Key Words ***
 Init Agent
     [Documentation]    Requirement
     Run Keyword If    '${ENV}' == 'VVNFIBOCC01' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCC01
-    Run Keyword If    '${ENV}' == 'VVNFIBOCVS01' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCVS01
+    Run Keyword If    '${ENV}' == 'VVNFIBOCC02' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCVS01
 
 Init CLEARCASE in VVNFIBOCC01
     [Documentation]    TODO: Write server description here
-    Set Global Variable    ${_AGENT}    VVNFIBOSDC01
+    Set Global Variable    ${_AGENT}    VVNFIBOCC01
     Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
+    Set Global Variable    ${_WINDOWS_PATH}    C:\\Program Files (x86)\\IBM\\RationalSDLC\\ClearCase\\bin
+    Set Global Variable    ${_OS}    WIN
 
 Init CLEARCASE in VVNFIBOCVS01
     [Documentation]    TODO: Write server description here
-    Set Global Variable    ${_AGENT}    VVNFIBOSDC01
+    Set Global Variable    ${_AGENT}    VVNFIBOCC02
     Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
+    Set Global Variable    ${_UNIX_PATH}    /opt/ibm/RationalSDLC/clearcase/bin
+    Set Global Variable    ${_OS}    UNIX

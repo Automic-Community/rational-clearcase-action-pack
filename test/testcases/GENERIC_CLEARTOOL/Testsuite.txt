@@ -1,0 +1,46 @@
+*** Settings ***
+Default Tags      win unix
+Test Template     Generic Cleartool Template
+Resource          ../../resources/keywords.txt
+
+*** Test Cases ***    OK_NOK    WIN_UNIX    WINDOWS PATH                UNIX PATH                Options    RETCODE    STATUS          REPORT MESSAGE
+1.Successful on windows
+                      OK        WIN         ${_WINDOWS_PATH}            ${EMPTY}                 -ver       0          ${ENDED_OK}     version 7.1.2
+
+2.Successful on unix
+                      OK        UNIX        ${EMPTY}                    ${_UNIX_PATH}            -ver       0          ${ENDED_OK}     version 7.1.2
+
+3.Successful on windows with empty windows path
+                      OK        WIN         ${EMPTY}                    ${EMPTY}                 -ver       0          ${ENDED_OK}     version 7.1.2
+
+4.Successful on unix with empty unix path
+                      OK        UNIX        ${EMPTY}                    ${EMPTY}                 -ver       0          ${ENDED_OK}     version 7.1.2
+
+5.Fail with invalid path on windows
+                      NOK       WIN         ${_WINDOWS_PATH}_invalid    ${EMPTY}                 -ver       0          ${ENDED_NOK}    ERROR[Directory]
+
+6.Fail with invalid path on unix
+                      NOK       UNIX        ${EMPTY}                    ${_UNIX_PATH}_invalid    -ver       0          ${ENDED_NOK}    ERROR[Directory]
+
+*** Keywords ***
+Generic Cleartool Template
+    [Arguments]    ${OK_NOK}    ${WIN_UNIX}    ${win_path}    ${unix_path}    ${options}    ${returnCode}
+    ...    ${returnStatus}    ${reportMessage}
+    [Documentation]    This template used for testing action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL with inputs
+    ...    - ${win_path}: Path to cleartool for Windows OS.
+    ...    - ${unix_path}: Specifies check action request.
+    ...    - ${options}: Generic cleartool options.
+    ...    - ${returnCode}: return code of execution
+    ...    - ${returnStatus}: return status of execution
+    ...    - ${reportMessage}: message should be contained in execution report
+    Run Keyword If    '${_OS}' != '${WIN_UNIX}'    Pass Execution    Deprecated test.    deprecated    -regression
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_WIN_PATH}    ${win_path}
+    Action Set    ${PRT_CLEARTOOL_UNIX_PATH}    ${unix_path}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    ${options}
+    Action Execute
+    Action Report Should Be Found
+    Run Keyword If    '${OK_NOK}' == 'OK'    Action Return Code Should Be    ${returnCode}
+    Run Keyword If    '${OK_NOK}' == 'NOK'    Action Return Code Should Not Equal    ${returnCode}
+    Action Return Status Should Be    ${returnStatus}
+    Action Report Should Contain    ${reportMessage}
