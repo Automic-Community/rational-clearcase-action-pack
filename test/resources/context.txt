@@ -18,7 +18,7 @@ ${_OS}            /
 Init Agent
     [Documentation]    Requirement
     Run Keyword If    '${ENV}' == 'VVNFIBOCC01' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCC01
-    Run Keyword If    '${ENV}' == 'VVNFIBOCC02' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCVS01
+    Run Keyword If    '${ENV}' == 'VVNFIBOCC02' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCC02
 
 Init CLEARCASE in VVNFIBOCC01
     [Documentation]    TODO: Write server description here
@@ -27,7 +27,7 @@ Init CLEARCASE in VVNFIBOCC01
     Set Global Variable    ${_WINDOWS_PATH}    C:\\Program Files (x86)\\IBM\\RationalSDLC\\ClearCase\\bin
     Set Global Variable    ${_OS}    WIN
 
-Init CLEARCASE in VVNFIBOCVS01
+Init CLEARCASE in VVNFIBOCC02
     [Documentation]    TODO: Write server description here
     Set Global Variable    ${_AGENT}    VVNFIBOCC02
     Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
