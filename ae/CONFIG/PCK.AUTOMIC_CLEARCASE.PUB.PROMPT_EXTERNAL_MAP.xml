@@ -26,8 +26,7 @@
 <Variables>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
-<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/UC4RB_CLEARTOOL_UNIX_PATH#" Value="EXT:/clearcase/unix_path" Value1="" Value2="" Value3="" Value4=""/>
-<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/UC4RB_CLEARTOOL_WIN_PATH#" Value="EXT:/clearcase/windows_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
 </Variables>
 </VARA>
 <DOCU_Docu state="1" type="text">
