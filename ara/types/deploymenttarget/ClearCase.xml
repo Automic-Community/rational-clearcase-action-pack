@@ -22,13 +22,9 @@
 			
 			<!-- Cleartool path -->
 			<Group name="cleartool_path" displayName="Cleartool path">
-				<Property name="windows_path" type="SingleLineText" mode="EDITABLE" displayName="Windows path">
+				<Property name="cleartool_path" type="SingleLineText" mode="EDITABLE" displayName="Cleartool path">
 					<Defaultvalue></Defaultvalue>
-					<Description>Path to cleartool for Windows OS</Description>
-				</Property>
-				<Property name="unix_path" type="SingleLineText" mode="EDITABLE" displayName="Unix path">
-					<Defaultvalue></Defaultvalue>
-					<Description>Path to cleartool for Unix OS</Description>
+					<Description>Path to cleartool</Description>
 				</Property>
 			</Group>	
 	</Properties>

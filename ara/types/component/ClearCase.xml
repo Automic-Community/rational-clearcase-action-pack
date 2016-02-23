@@ -5,19 +5,34 @@
 	<DefaultDeploymentTargetType>ClearCase</DefaultDeploymentTargetType>
    	
 	<Properties>
-		<!--Properties-->
+		<Group name="management" displayName="Management">
+			<Property name="vob_tag" displayName="VOB Tag" mode="EDITABLE" type="SingleLineText">
+				<Description>The VOB tag name</Description>
+			</Property>
+			<Property name="view_tag" displayName="View Tag" mode="EDITABLE" type="SingleLineText">
+				<Description>The view tag name</Description>
+			</Property>
+		</Group>
 	</Properties>
 	
 	<DynamicProperties>
 		<!--Cleartool path-->
-		<Property name="/clearcase/windows_path" highlighted="false">
-            <Value>{@target/custom/windows_path}</Value>
-            <Description>Path to cleartool for Windows OS.</Description>
+		<Property name="/clearcase/cleartool_path" highlighted="false">
+            <Value>{@target/custom/cleartool_path}</Value>
+            <Description>Path to cleartool</Description>
         </Property>
-		<Property name="/clearcase/unix_path" highlighted="false">
-            <Value>{@target/custom/unix_path}</Value>
-            <Description>Path to cleartool for Unix OS.</Description>
-        </Property>
+		
+		<!--VOB Tag-->
+		<Property name="/clearcase/vob_tag" highlighted="false">
+            <Value>{/custom/vob_tag}</Value>
+            <Description>The VOB tag name</Description>
+		</Property> 
+		
+		<!--View Tag-->
+		<Property name="/clearcase/view_tag" highlighted="false">
+            <Value>{/custom/view_tag}</Value>
+            <Description>The view tag name</Description>
+		</Property> 
 
 		<!-- SNAPSHOTS -->
 		<Property name="/snapshot/archive_path" highlighted="false">
