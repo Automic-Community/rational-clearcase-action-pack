@@ -12,7 +12,7 @@
 : SET &UC4RB_COMMENT# = "-nc"
 :ELSE
 : SET &UC4RB_COMMENT# = STR_SUBSTITUTE(&UC4RB_COMMENT#, '"', '\"')
-: SET &UC4RB_COMMENT# = '-c " &UC4RB_COMMENT#"'
+: SET &UC4RB_COMMENT# = '-c "&UC4RB_COMMENT#"'
 :ENDIF]]></MSCRI>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">

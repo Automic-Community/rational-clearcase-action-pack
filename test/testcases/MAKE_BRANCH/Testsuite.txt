@@ -1,0 +1,31 @@
+*** Settings ***
+Default Tags      win unix
+Test Template     Make branch Template
+Resource          ../../resources/keywords.txt
+
+*** Test Cases ***    Cleartool path        Branch type       Comment                                     No checkout    List of elements           RETCODE    STATUS
+1.Successful with normal case
+                      ${_CLEARTOOL_PATH}    testmakebrtype    "Make a branch of type "testmakebrtype""    YES            ${_FILE_ELEMENT}           0          ${ENDED_OK}
+
+2.Failed with No checkout
+                      ${_CLEARTOOL_PATH}    testmakebrtype    "Make a branch of type "testmakebrtype""    NO             ${_FILE_ELEMENT}           0          ${ENDED_OK}
+
+2.Failed with invalid elements
+                      ${_CLEARTOOL_PATH}    testmakebrtype    "Make a branch of type "testmakebrtype""    YES            ${_FILE_ELEMENT}invalid    1          ${ENDED_NOK}
+
+*** Keywords ***
+Make branch Template
+    [Arguments]    ${cleartool_path}    ${branch_type}    ${comment}    ${no_checkout}    ${elements}    ${returnCode}
+    ...    ${returnStatus}
+    Uncheckout and remove branch type    ${_FILE_ELEMENT}    testmakebrtype    ${_VOB}
+    Make a branch type    testmakebrtype    ${_VOB}
+    Init Action    ${ACTION_MAKE_BRANCH}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_MAKE_BRANCH_MKB_BRANCHTYPE}    ${branch_type}
+    Action Set    ${PRT_MAKE_BRANCH_MKB_COMMENT}    ${comment}
+    Action Set    ${PRT_MAKE_BRANCH_MKB_NOCHECKOUT}    ${no_checkout}
+    Action Set    ${PRT_MAKE_BRANCH_MKB_ELEMENTS}    ${elements}
+    Action Execute
+    Action Return Code Should Be    ${returnCode}
+    Action Return Status Should Be    ${returnStatus}
+    Action Report Should Be Found
