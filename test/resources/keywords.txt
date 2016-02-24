@@ -53,3 +53,38 @@ Action Return Variable Should Be Equal As Integers
     [Arguments]    ${variableValue}
     ${out}=    Action Get Variable    ${variableName}
     Should Be Equal As Integers    ${out}    ${variableValue}
+
+UnCheckout elements
+    [Arguments]    ${list_elements}
+    [Documentation]    Keyword to uncheckout ${list_elements}
+    Init Action    ${ACTION_UNCHECKOUT}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_UNCHECKOUT_LIST_ELEMENTS}    ${list_elements}
+    Action Set    ${PRT_UNCHECKOUT_KEEP}    NO
+    Action Execute
+
+Checkout elements
+    [Arguments]    ${list_elements}
+    [Documentation]    Keyword to checkout ${list_elements}
+    Init Action    ${ACTION_CHECKOUT}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_CHECKOUT_COMMENT}    ${EMPTY}
+    Action Set    ${PRT_CHECKOUT_LIST_ELEMENTS}    ${list_elements}
+    Action Execute
+
+Add Text
+    [Arguments]    ${text_file_name}    ${text_to_add}
+    [Documentation]    Keyword to add text ${text_to_add} to file ${text_file_name}
+    Init Action    PCK.AUTOMIC_TEXT.PUB.ACTION.ADD_TEXT
+    Action Set    &UC4RB_TEXT_FILE_NAME#    ${text_file_name}
+    Action Set    &UC4RB_TEXT_ADD_TEXT#    ${text_to_add}
+    Action Execute
+
+Checkin elements
+    [Arguments]    ${list_elements}
+    [Documentation]    Keyword to checkin ${list_elements}
+    Init Action    ${ACTION_CHECKIN}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_CHECKIN_LIST_ELEMENTS}    ${list_elements}
+    Action Set    ${PRT_CHECKIN_IDENTICAL}    YES
+    Action Execute
