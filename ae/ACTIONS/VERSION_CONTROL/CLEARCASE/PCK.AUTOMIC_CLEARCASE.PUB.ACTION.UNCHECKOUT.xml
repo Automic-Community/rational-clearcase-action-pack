@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT">
 <XHEADER state="1">
-<Title>cleartool uncheckout</Title>
+<Title>ClearCase Uncheckout</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,8 +55,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_KEEPs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_KEEP#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">NO</UC4RB_RCC_UNCO_KEEPs.00>
 </PRPTBOX>
@@ -113,8 +112,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_KEEPs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_KEEP#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">NO</UC4RB_RCC_UNCO_KEEPs.00>
 </PRPTBOX>
@@ -171,8 +169,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_KEEPs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_KEEP#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">NO</UC4RB_RCC_UNCO_KEEPs.00>
 </PRPTBOX>
@@ -216,8 +213,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT"/>
 <UC4RB_RCC_UNCO_KEEPs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_UNCO_KEEP#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.UNCHECKOUT">NO</UC4RB_RCC_UNCO_KEEPs.00>
 </PRPTBOX>
@@ -318,7 +314,25 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Cancels a checkout of element(s).]]></DOC>
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT
+
+= General description =
+Cancels a checkout of the elements.
+= Inputs =
+Cleartool path: Path to cleartool
+List of elements: File and directory elements to be unchecked out. Allow wildcard for multi elements, not allow elements' name contain space
+Keep: Set to YES to specify the -keep option to preserve the checked out version in a private file. Valid values are YES or NO.
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
+
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
