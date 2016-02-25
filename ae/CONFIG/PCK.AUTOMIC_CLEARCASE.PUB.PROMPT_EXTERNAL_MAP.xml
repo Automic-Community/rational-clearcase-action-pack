@@ -36,6 +36,15 @@
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.START_VIEW/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.START_VIEW/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.START_VIEW/UC4RB_RCC_SVIEW_TAG#" Value="EXT:/clearcase/view_tag" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKOUT/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKOUT/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKOUT/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKIN/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKIN/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKIN/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
 </Variables>
 </VARA>
 <DOCU_Docu state="1" type="text">
