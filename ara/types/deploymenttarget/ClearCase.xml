@@ -27,5 +27,12 @@
 					<Description>Path to cleartool</Description>
 				</Property>
 			</Group>	
+			<!-- Cleartool path -->
+			<Group name="view_path" displayName="View path">
+				<Property name="view_path" type="SingleLineText" mode="EDITABLE" displayName="View path">
+					<Defaultvalue></Defaultvalue>
+					<Description>For a dynamic view, the dynamic view storage path or for a snapshot view, the path for the view.</Description>
+				</Property>
+			</Group>	
 	</Properties>
 </DeploymentTargetType>

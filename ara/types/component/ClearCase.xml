@@ -22,6 +22,12 @@
             <Description>Path to cleartool</Description>
         </Property>
 		
+		<!-- View path -->
+		<Property name="/clearcase/view_path" highlighted="false">
+            <Value>{@target/custom/view_path}</Value>
+            <Description>For a dynamic view, the dynamic view storage path or for a snapshot view, the path for the view.</Description>
+        </Property>
+		
 		<!--VOB Tag-->
 		<Property name="/clearcase/vob_tag" highlighted="false">
             <Value>{/custom/vob_tag}</Value>

@@ -27,6 +27,20 @@
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW/UC4RB_RCC_MKV_VIEW_PATH#" Value="EXT:/clearcase/view_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW/UC4RB_RCC_MKV_VIEW_TAG#" Value="EXT:/clearcase/view_tag" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW/UC4RB_RCC_RMV_VIEW_PATH#" Value="EXT:/clearcase/view_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW/UC4RB_RCC_RMV_VIEW_TAG#" Value="EXT:/clearcase/view_tag" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC/UC4RB_RCC_SETCS_TAG#" Value="EXT:/clearcase/view_tag" Value1="" Value2="" Value3="" Value4=""/>
 </Variables>
 </VARA>
 <DOCU_Docu state="1" type="text">
