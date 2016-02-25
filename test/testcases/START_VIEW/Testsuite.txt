@@ -3,6 +3,10 @@ Default Tags      win unix
 Test Template     Start View Template
 Resource          ../../resources/keywords.txt
 
+*** Variables ***
+# Avoid conflict with other testcases that are using "test_view"
+${_VIEW}          myview
+
 *** Test Cases ***    OK_NOK    CLEARTOOL PATH                View              RETCODE    STATUS          REPORT MESSAGE
 1.Successful with normal case
                       OK        ${_CLEARTOOL_PATH}            ${_VIEW}          0          ${ENDED_OK}     ${EMPTY}
@@ -25,6 +29,8 @@ Start View Template
     ...    - ${returnCode}: return code of execution
     ...    - ${returnStatus}: return status of execution
     ...    - ${reportMessage}: message should be contained in execution report
+    #Setup#
+    End a view    ${_VIEW}
     Init Action    ${ACTION_STARTVIEW}
     Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
     Action Set    ${PRT_STARTVIEW_VIEW}    ${view}

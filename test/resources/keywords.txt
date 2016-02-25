@@ -53,3 +53,19 @@ Action Return Variable Should Be Equal As Integers
     [Arguments]    ${variableValue}
     ${out}=    Action Get Variable    ${variableName}
     Should Be Equal As Integers    ${out}    ${variableValue}
+
+Start a view
+    [Arguments]    ${view}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    startview ${view}
+    Action Execute
+    Action Report Should Be Found
+
+End a view
+    [Arguments]    ${view}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    endview ${view}
+    Action Execute
+    Action Report Should Be Found
