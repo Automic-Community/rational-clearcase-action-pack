@@ -7,7 +7,7 @@ Resource          ../../resources/keywords.txt
 1.Successful with normal case
                       ${_CLEARTOOL_PATH}    testmakebrtype    "Make a branch of type "testmakebrtype""    YES            ${_FILE_ELEMENT}           0          ${ENDED_OK}
 
-2.Failed with No checkout
+2.Successful with No checkout
                       ${_CLEARTOOL_PATH}    testmakebrtype    "Make a branch of type "testmakebrtype""    NO             ${_FILE_ELEMENT}           0          ${ENDED_OK}
 
 2.Failed with invalid elements
