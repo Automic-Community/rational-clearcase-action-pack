@@ -88,6 +88,7 @@ Checkin elements
     Action Set    ${PRT_CHECKIN_LIST_ELEMENTS}    ${list_elements}
     Action Set    ${PRT_CHECKIN_IDENTICAL}    YES
     Action Execute
+
 Start a view
     [Arguments]    ${view}
     Init Action    ${ACTION_GENERIC_CLEARTOOL}
@@ -103,3 +104,17 @@ End a view
     Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    endview ${view}
     Action Execute
     Action Report Should Be Found
+
+Mount VOB
+    [Arguments]    ${VOB_TAG}
+    Init Action    ${ACTION_MOUNT_VOB}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_MOUNT_VOB_TAG}    ${VOB_TAG}
+    Action Execute
+
+Unmount VOB
+    [Arguments]    ${VOB_TAG}
+    Init Action    ${ACTION_UNMOUNT_VOB}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_UNMOUNT_VOB_TAG}    ${VOB_TAG}
+    Action Execute

@@ -32,6 +32,7 @@ Init CLEARCASE in VVNFIBOCC01
     Set Global Variable    ${_FILE_ELEMENT}    M:\\test_view\\test_vob\\test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    M:\\test_view\\test_vob\\test_html_elem
     Set Global Variable    ${MULTI_ELEMENTS}    M:\\test_view\\test_vob\\*.xml
+    Set Global Variable    ${VOB_TAG}    /vobtest2
 
 Init CLEARCASE in VVNFIBOCC02
     [Documentation]    TODO: Write server description here
@@ -41,3 +42,4 @@ Init CLEARCASE in VVNFIBOCC02
     Set Global Variable    ${_FILE_ELEMENT}    /view/test_view/test_vob/test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    /view/test_view/test_vob/test_html_elem
     Set Global Variable    ${MULTI_ELEMENTS}    /view/test_view/test_vob/*.xml
+    Set Global Variable    ${VOB_TAG}    /vobtest2

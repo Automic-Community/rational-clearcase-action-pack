@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOUNT_VOB">
 <XHEADER state="1">
-<Title>cleartool mount vob</Title>
+<Title>Cleartool mount vob</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,9 +55,8 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -112,9 +111,8 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -169,9 +167,8 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -213,9 +210,8 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
-<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
+<UC4RB_RCC_MVOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MVOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -284,7 +280,9 @@
 </node>
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" parent="PRPTS" type="PROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" ontop="1">
-<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" prptmode="1"/>
+<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MOUNT_VOB" prptmode="1">
+<UC4RB_RCC_MVOB_TAGs.00 altview="0" haslist="0"/>
+</PRPTBOX>
 </PROMPTSET>
 </node>
 <node content="1" id="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" name="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" parent="PRPTS" type="PROMPTSET">
@@ -314,9 +312,25 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Mounts/activates VOBs ro access source files from a dynamic view.
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOUNT_VOB
+ 
+= General description =
+Mounts/activates VOBs ro access source files from a dynamic view.
+A VOB (versioned object base) is the permanent data repository in which you store files, directories, and metadata. A file or directory is created as an element in the VOB. Each time you revise and check in a file or directory from a view, a new version is created. Mount/activate VOBs to access source files from a dynamic view. The VOB tag by which an individual VOB is referenced is the same as the full path to its mount point.
+= Inputs =
+Cleartool path: Path to cleartool
+VOB Tag: The VOB tag name to be mounted.
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
 
-A VOB (versioned object base) is the permanent data repository in which you store files, directories, and metadata. A file or directory is created as an element in the VOB. Each time you revise and check in a file or directory from a view, a new version is created. Mount/activate VOBs to access source files from a dynamic view. The VOB tag by which an individual VOB is referenced is the same as the full path to its mount point.]]></DOC>
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
