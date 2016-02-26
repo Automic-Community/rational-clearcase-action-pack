@@ -133,3 +133,32 @@ End a view
     Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    endview ${view}
     Action Execute
     Action Report Should Be Found
+
+Make a label type
+    [Arguments]    ${label_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    mklbtype -nc ${label_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label type
+    [Arguments]    ${label_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force lbtype:${label_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label
+    [Arguments]    ${label_type}    ${elements}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmlabel ${label_type} ${elements}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label and make label type
+    [Arguments]    ${label_type}    ${elements}    ${vob_tag}
+    Remove a label    ${label_type}    ${elements}
+    Make a label type    ${label_type}    ${vob_tag}
