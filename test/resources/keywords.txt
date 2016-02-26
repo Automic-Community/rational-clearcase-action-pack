@@ -54,6 +54,35 @@ Action Return Variable Should Be Equal As Integers
     ${out}=    Action Get Variable    ${variableName}
     Should Be Equal As Integers    ${out}    ${variableValue}
 
+Make a branch type
+    [Arguments]    ${branch_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    mkbrtype -nc ${branch_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Uncheckout elements
+    [Arguments]    ${elements}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    uncheckout -rm ${elements}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a branch type
+    [Arguments]    ${branch_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force brtype:${branch_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Uncheckout and remove branch type
+    [Arguments]    ${elements}    ${branch_type}    ${vob_tag}
+    Uncheckout elements    ${elements}
+    Remove a branch type    ${branch_type}    ${vob_tag}
+
 UnCheckout elements
     [Arguments]    ${list_elements}
     [Documentation]    Keyword to uncheckout ${list_elements}
@@ -88,6 +117,7 @@ Checkin elements
     Action Set    ${PRT_CHECKIN_LIST_ELEMENTS}    ${list_elements}
     Action Set    ${PRT_CHECKIN_IDENTICAL}    YES
     Action Execute
+    
 Start a view
     [Arguments]    ${view}
     Init Action    ${ACTION_GENERIC_CLEARTOOL}

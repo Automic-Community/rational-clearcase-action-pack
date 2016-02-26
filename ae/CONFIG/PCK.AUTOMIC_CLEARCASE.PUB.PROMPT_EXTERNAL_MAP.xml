@@ -27,6 +27,13 @@
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH_TYPE/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH_TYPE/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH_TYPE/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH_TYPE/UC4RB_RCC_MKBT_VOB_TAG#" Value="EXT:/clearcase/vob_tag" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.END_VIEW/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.END_VIEW/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
 <row Name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.END_VIEW/UC4RB_CLEARTOOL_PATH#" Value="EXT:/clearcase/cleartool_path" Value1="" Value2="" Value3="" Value4=""/>
