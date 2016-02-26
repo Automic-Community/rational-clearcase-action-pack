@@ -3,12 +3,6 @@ Default Tags      win unix
 Test Template     Make View Template
 Resource          ../../resources/keywords.txt
 
-*** Variables ***
-${VIEW_TEST1}     View_test1
-${VIEW_TEST2}     View_test2
-${VIEW_PATH1}     //VVNFIBOCC01/test_view/view_test1.vws
-${VIEW_PATH2}     //VVNFIBOCC01/test_view/view_test2.vws
-
 *** Test Cases ***    OK_NOK     CLEARTOOL PATH                VIEW TAG              VIEW PATH        VIEW TYPE        RETCODE     STATUS          REPORT MESSAGE
 1.Snapshot - Successful with normal case
                       [Setup]    Remove View                   ${_CLEARTOOL_PATH}    ${VIEW_TEST1}    ${VIEW_PATH1}    snapshot

@@ -41,7 +41,7 @@ Set Config Spec Template
     Run Keyword If    '${OK_NOK}' == 'OK'    Action Report Should Contain    ${reportMessage}
 
 Suite Setup
-    Make View    ${_CLEARTOOL_PATH}    View_test3    //VVNFIBOCC01/test_view/view_test3.vws    dynamic
+    Make View    ${_CLEARTOOL_PATH}    ${VIEW_TEST3}    ${VIEW_PATH3}    dynamic
 
 Suite Teardown
-    Remove View    ${_CLEARTOOL_PATH}    View_test3    //VVNFIBOCC01/test_view/view_test3.vws    dynamic
+    Remove View    ${_CLEARTOOL_PATH}    ${VIEW_TEST3}    ${VIEW_PATH3}    dynamic

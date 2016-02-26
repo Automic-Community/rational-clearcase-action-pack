@@ -26,15 +26,27 @@ Init Agent
 Init CLEARCASE in VVNFIBOCC01
     [Documentation]    TODO: Write server description here
     Set Global Variable    ${_AGENT}    VVNFIBOCC01
-    Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
+    Set Global Variable    ${_LOGIN}    RM.AUTOMIC.1316
     Set Global Variable    ${_CLEARTOOL_PATH}    C:\\Program Files (x86)\\IBM\\RationalSDLC\\ClearCase\\bin
     Set Global Variable    ${_FILE_ELEMENT}    M:\\test_view\\test_vob\\test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    M:\\test_view\\test_vob\\test_html_elem
+    Set Global Variable    ${VIEW_TEST1}    View_test1
+    Set Global Variable    ${VIEW_TEST2}    View_test2
+    Set Global Variable    ${VIEW_PATH1}    //VVNFIBOCC01/test_view/view_test1.vws
+    Set Global Variable    ${VIEW_PATH2}    //VVNFIBOCC01/test_view/view_test2.vws
+    Set Global Variable    ${VIEW_TEST3}    View_test3
+    Set Global Variable    ${VIEW_PATH3}    //VVNFIBOCC01/test_view/view_test3.vws
 
 Init CLEARCASE in VVNFIBOCC02
     [Documentation]    TODO: Write server description here
     Set Global Variable    ${_AGENT}    VVNFIBOCC02
-    Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
+    Set Global Variable    ${_LOGIN}    RM.AUTOMIC.1316
     Set Global Variable    ${_CLEARTOOL_PATH}    /opt/ibm/RationalSDLC/clearcase/bin
     Set Global Variable    ${_FILE_ELEMENT}    /view/test_view/test_vob/test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    /view/test_view/test_vob/test_html_elem
+    Set Global Variable    ${VIEW_TEST1}    View_test1
+    Set Global Variable    ${VIEW_TEST2}    View_test2
+    Set Global Variable    ${VIEW_PATH1}    /root/view_test1.vws
+    Set Global Variable    ${VIEW_PATH2}    /root/view_test2.vws
+    Set Global Variable    ${VIEW_TEST3}    View_test3
+    Set Global Variable    ${VIEW_PATH3}    /root/view_test3.vws
