@@ -83,15 +83,6 @@ Uncheckout and remove branch type
     Uncheckout elements    ${elements}
     Remove a branch type    ${branch_type}    ${vob_tag}
 
-UnCheckout elements
-    [Arguments]    ${list_elements}
-    [Documentation]    Keyword to uncheckout ${list_elements}
-    Init Action    ${ACTION_UNCHECKOUT}
-    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
-    Action Set    ${PRT_UNCHECKOUT_LIST_ELEMENTS}    ${list_elements}
-    Action Set    ${PRT_UNCHECKOUT_KEEP}    NO
-    Action Execute
-
 Checkout elements
     [Arguments]    ${list_elements}
     [Documentation]    Keyword to checkout ${list_elements}
@@ -117,7 +108,7 @@ Checkin elements
     Action Set    ${PRT_CHECKIN_LIST_ELEMENTS}    ${list_elements}
     Action Set    ${PRT_CHECKIN_IDENTICAL}    YES
     Action Execute
-    
+
 Start a view
     [Arguments]    ${view}
     Init Action    ${ACTION_GENERIC_CLEARTOOL}
@@ -131,5 +122,41 @@ End a view
     Init Action    ${ACTION_GENERIC_CLEARTOOL}
     Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
     Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    endview ${view}
+    Action Execute
+    Action Report Should Be Found
+
+Move element
+    [Arguments]    ${pname}    ${target_pname}
+    [Documentation]    Keyword to move ${pname} ${target_pname}
+    Init Action    ${ACTION_MOVE}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_MOVE_PNAME}    ${pname}
+    Action Set    ${PRT_MOVE_TARGET_PNAME}    ${target_pname}
+    Action Execute
+
+Remove type
+    [Arguments]    ${type}    ${type_value}    ${vob_tag}
+    [Documentation]    This key workd used for remove type [attype|brtype|eltype|hltype Hyperlink|lbtype|trtype]
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force ${type}:${type_value}@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove attribute
+    [Arguments]    ${type_name}    ${element}
+    [Documentation]    This key workd used for remove attribute
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmattr -nc ${type_name} ${element}
+    Action Execute
+    Action Report Should Be Found
+
+Remove element
+    [Arguments]    ${element}
+    [Documentation]    This key workd used for remove element ${element}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmelem -nc -force ${element}
     Action Execute
     Action Report Should Be Found

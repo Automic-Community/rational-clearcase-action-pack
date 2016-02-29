@@ -17,6 +17,11 @@ ${_FILE_ELEMENT}    /
 ${_HTML_ELEMENT}    /
 ${_CLEARTOOL_PATH}    /
 ${MULTI_ELEMENTS}    /
+${_ATT_TYPE}      test_att_type
+${_ATT_NO_SPE_TYPE}    test_att_no_spe_type
+${_CLEARTOOL_PATH}    /
+${_ROSE_ELEMENT}    /
+${_DIR_VOB}       /
 
 *** Key Words ***
 Init Agent
@@ -32,6 +37,8 @@ Init CLEARCASE in VVNFIBOCC01
     Set Global Variable    ${_FILE_ELEMENT}    M:\\test_view\\test_vob\\test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    M:\\test_view\\test_vob\\test_html_elem
     Set Global Variable    ${MULTI_ELEMENTS}    M:\\test_view\\test_vob\\*.xml
+    Set Global Variable    ${_ROSE_ELEMENT}    M:\\test_view\\test_vob\\test_rose_elem
+    Set Global Variable    ${_DIR_VOB}    M:\\test_view\\test_vob
 
 Init CLEARCASE in VVNFIBOCC02
     [Documentation]    TODO: Write server description here
@@ -41,3 +48,5 @@ Init CLEARCASE in VVNFIBOCC02
     Set Global Variable    ${_FILE_ELEMENT}    /view/test_view/test_vob/test_file_elem.txt
     Set Global Variable    ${_HTML_ELEMENT}    /view/test_view/test_vob/test_html_elem
     Set Global Variable    ${MULTI_ELEMENTS}    /view/test_view/test_vob/*.xml
+    Set Global Variable    ${_ROSE_ELEMENT}    /view/test_view/test_vob/test_rose_elem
+    Set Global Variable    ${_DIR_VOB}    /view/test_view/test_vob
