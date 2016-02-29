@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ATTR_TYPE">
 <XHEADER state="1">
-<Title>cleartool make attribute type</Title>
+<Title>ClearCase Make Attribute Type</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,8 +55,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTR_VAL_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTR_VAL_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTRTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTRTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
@@ -115,8 +114,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTR_VAL_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTR_VAL_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTRTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTRTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
@@ -175,8 +173,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTR_VAL_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTR_VAL_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTRTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTRTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
@@ -222,8 +219,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTR_VAL_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTR_VAL_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_ATTRTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_ATTRTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
 <UC4RB_RCC_MKATTT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKATTT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ATTR_TYPE"/>
@@ -326,9 +322,27 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Creates one or more attribute types for future use within a VOB.
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ATTR_TYPE
 
-Uses mkattype. After creating an attribute type in a VOB, you can use the action 'Make Attribute' action to attach attributes of that type to objects in that VOB.]]></DOC>
+= General description =
+The mkattype command creates one or more attribute types for future use within a VOB. After creating an attribute type in a VOB, you can use mkattr to attach attributes of that type to objects in that VOB.
+= Inputs =
+Cleartool path: Path to cleartool
+Comment: A comment for the attribute type to make.
+Attribute value type: Type of attribute value. Possible values (integer | real | time | string | opaque)
+Attribute type: Attribute type.
+VOB tag: A vob tag where to make attribute type.
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
+
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>

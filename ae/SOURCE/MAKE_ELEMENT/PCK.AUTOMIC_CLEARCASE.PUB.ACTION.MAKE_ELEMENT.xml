@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ELEMENT">
 <XHEADER state="1">
-<Title>cleartool make element</Title>
+<Title>ClearCase Make Element</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,8 +55,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENT_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENT_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
@@ -115,8 +114,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENT_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENT_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
@@ -175,8 +173,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENT_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENT_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
@@ -222,8 +219,7 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENT_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENT_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
 <UC4RB_RCC_MKELEM_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKELEM_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_ELEMENT"/>
@@ -326,9 +322,28 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Creates one or more new elements. 
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ELEMENT
 
-This action uses mkelem. By default, a new element can be created in a directory only if that directory element is checked out. mkelem appends an appropriate line to the directory's checkout comment.]]></DOC>
+= General description =
+The mkelem command creates one or more new elements. By default, a new element can be created in a directory only if that directory element is checked out. mkelem appends an appropriate line to the directory's checkout comment.
+= Inputs =
+Cleartool path: Path to cleartool
+Comment: A comment for the elements to make.
+No checkout: Set to YES to specify the -nco option, stops element from checkout after it was created.
+Element type: Specifies the predefined type of element to be created
+Replace: Removes an existing attribute of the same type before attaching the new one, thus avoiding the collision. Valid values are YES or NO
+List of elements: List of elements to be created
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
+
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
