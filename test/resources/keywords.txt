@@ -143,6 +143,19 @@ End a view
     Action Execute
     Action Report Should Be Found
 
+Mount VOB
+    [Arguments]    ${VOB_TAG}
+    Init Action    ${ACTION_MOUNT_VOB}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_MOUNT_VOB_TAG}    ${VOB_TAG}
+    Action Execute
+
+Unmount VOB
+    [Arguments]    ${VOB_TAG}
+    Init Action    ${ACTION_UNMOUNT_VOB}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_UNMOUNT_VOB_TAG}    ${VOB_TAG}
+    Action Execute
 Move element
     [Arguments]    ${pname}    ${target_pname}
     [Documentation]    Keyword to move ${pname} ${target_pname}

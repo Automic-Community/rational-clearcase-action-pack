@@ -1,0 +1,3 @@
+*** Settings ***
+Documentation     Testing for action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNMOUNT_VOB
+Force Tags        UNMOUNT_VOB
