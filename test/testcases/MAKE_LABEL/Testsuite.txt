@@ -1,0 +1,30 @@
+*** Settings ***
+Default Tags      win unix
+Test Template     Make label Template
+Resource          ../../resources/keywords.txt
+
+*** Test Cases ***    Cleartool path        Label type    Comment                            List of elements           Recurse    RETCODE    STATUS
+1.Successful with normal case
+                      ${_CLEARTOOL_PATH}    lbtype        "Make a label of type "lbtype""    ${_FILE_ELEMENT}           YES        0          ${ENDED_OK}
+
+2.Successful with No Recurse
+                      ${_CLEARTOOL_PATH}    lbtype        "Make a label of type "lbtype""    ${_FILE_ELEMENT}           NO         0          ${ENDED_OK}
+
+2.Failed with invalid elements
+                      ${_CLEARTOOL_PATH}    lbtype        "Make a label of type "lbtype""    ${_FILE_ELEMENT}invalid    YES        1          ${ENDED_NOK}
+
+*** Keywords ***
+Make label Template
+    [Arguments]    ${cleartool_path}    ${label_type}    ${comment}    ${elements}    ${resurse}    ${returnCode}
+    ...    ${returnStatus}
+    Remove a label and make label type    lbtype    ${_FILE_ELEMENT}    ${_VOB}
+    Init Action    ${ACTION_MAKE_LABEL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_MAKE_LABEL_MLB_BRANCHTYPE}    ${label_type}
+    Action Set    ${PRT_MAKE_LABEL_MLB_COMMENT}    ${comment}
+    Action Set    ${PRT_MAKE_LABEL_MLB_ELEMENTS}    ${elements}
+    Action Set    ${PRT_MAKE_LABEL_MLB_RECURSE}    ${resurse}
+    Action Execute
+    Action Return Code Should Be    ${returnCode}
+    Action Return Status Should Be    ${returnStatus}
+    Action Report Should Be Found

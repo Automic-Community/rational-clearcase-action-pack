@@ -5,7 +5,8 @@
 	<DefaultDeploymentTargetType>ClearCase</DefaultDeploymentTargetType>
    	
 	<Properties>
-		<Group name="management" displayName="Management">
+		<!--Properties-->
+		<Group name="vob_view" displayName="VOB and View">
 			<Property name="vob_tag" displayName="VOB Tag" mode="EDITABLE" type="SingleLineText">
 				<Description>The VOB tag name</Description>
 			</Property>
@@ -76,7 +77,7 @@
 			<Description>Overwrite local files/directory if exist. For SVN, all files will be exported but already present files will not be overwritten. For TFS, overwrites all items in the workspace(CLI: /force)</Description>
 			<List>Yes#;#No</List>
 		</Property>
-
+		
 		<!-- HTTP -->
 		<Property name="/source/http/url" highlighted="false">
 			<Description>URL</Description>
@@ -107,7 +108,7 @@
 		<Property name="/source/http/proxy_pwd" highlighted="false"  type="Protected">
 			<Description>Password if proxy requires authentication.</Description>
 		</Property>
-
+		
 		<!-- HTTPS -->
 		<Property name="/source/https/url" highlighted="false">
 			<Description>URL</Description>
@@ -138,7 +139,7 @@
 		<Property name="/source/https/proxy_pwd" highlighted="false"  type="Protected">
 			<Description>Password if proxy requires authentication.</Description>
 		</Property>
-
+		
 		<!-- FTP -->
 		<Property name="/source/ftp/host" highlighted="false">
 			<Description>Host to connect to.</Description>
@@ -220,7 +221,7 @@
 			<Description>Text/Binary transfer modes.</Description>
 			<List>BINARY#;#TEXT</List>
 		</Property>			
-
+		
 		<!-- SFTP -->
 		<Property name="/source/sftp/host" highlighted="false">
 			<Description>Host to connect to.</Description>
@@ -249,8 +250,8 @@
 			<Description>Preserves creation/modification times and modes of the original files. Default: yes</Description>
 			<List>Yes#;#No</List>
 		</Property>
-
-
+		
+		
 		<!-- SCP -->
 		<Property name="/source/scp/host" highlighted="false">
 			<Description>Host to connect to.</Description>
@@ -279,7 +280,7 @@
 			<Value>5000</Value>
 			<Description>Timeout in miliseconds to wait to build up a connection to the target host. Default: 5000.</Description>
 		</Property>
-
+		
 		<!-- SMB -->
 		<Property name="/source/smb/host" highlighted="false">
 			<Description>Host to connect to.</Description>
@@ -335,7 +336,7 @@
 			<Value>5</Value>
 			<Description>Number of parallel transfers (works only if source file is a directory). Default: 5</Description>
 		</Property>
-
+		
 		<!-- SVN -->
 		<Property name="/source/svn/uri" highlighted="false">
 			<Description>Repository URI. Example: svn://repo/app/trunk or https://repo:1942/app/trunk.</Description>
@@ -354,7 +355,7 @@
 			<Description>Defines whether to accept unknown SSL server certificates or not. CLI option --trust-server-cert. Default: Yes</Description>
 			<List>Yes#;#No</List>
 		</Property>
-
+		
 		<!-- CVS -->
 		<Property name="/source/cvs/uri" highlighted="false">
 			<Description>Repository URI. Example: ":pserver:username@cvs.server.local:/usr/local/cvs/application".</Description>
@@ -394,7 +395,7 @@
 			<Description>Recursively retrieves all items that match your itemspec.</Description>
 			<List>Yes#;#No</List>
 		</Property>
-
+		
 		<!-- STAGING -->
 		<Property name="/staging/working_files_dirs" highlighted="false">
 			<Value>{/staging/working_base_dir}/{@application/system/name}/{/system/name}</Value>
