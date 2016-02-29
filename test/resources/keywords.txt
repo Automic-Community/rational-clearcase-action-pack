@@ -54,14 +54,34 @@ Action Return Variable Should Be Equal As Integers
     ${out}=    Action Get Variable    ${variableName}
     Should Be Equal As Integers    ${out}    ${variableValue}
 
-UnCheckout elements
-    [Arguments]    ${list_elements}
-    [Documentation]    Keyword to uncheckout ${list_elements}
-    Init Action    ${ACTION_UNCHECKOUT}
+Make a branch type
+    [Arguments]    ${branch_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
     Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
-    Action Set    ${PRT_UNCHECKOUT_LIST_ELEMENTS}    ${list_elements}
-    Action Set    ${PRT_UNCHECKOUT_KEEP}    NO
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    mkbrtype -nc ${branch_type}\@${vob_tag}
     Action Execute
+    Action Report Should Be Found
+
+Uncheckout elements
+    [Arguments]    ${elements}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    uncheckout -rm ${elements}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a branch type
+    [Arguments]    ${branch_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force brtype:${branch_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Uncheckout and remove branch type
+    [Arguments]    ${elements}    ${branch_type}    ${vob_tag}
+    Uncheckout elements    ${elements}
+    Remove a branch type    ${branch_type}    ${vob_tag}
 
 Checkout elements
     [Arguments]    ${list_elements}
@@ -118,3 +138,67 @@ Unmount VOB
     Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
     Action Set    ${PRT_UNMOUNT_VOB_TAG}    ${VOB_TAG}
     Action Execute
+Move element
+    [Arguments]    ${pname}    ${target_pname}
+    [Documentation]    Keyword to move ${pname} ${target_pname}
+    Init Action    ${ACTION_MOVE}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_MOVE_PNAME}    ${pname}
+    Action Set    ${PRT_MOVE_TARGET_PNAME}    ${target_pname}
+    Action Execute
+
+Remove type
+    [Arguments]    ${type}    ${type_value}    ${vob_tag}
+    [Documentation]    This key workd used for remove type [attype|brtype|eltype|hltype Hyperlink|lbtype|trtype]
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force ${type}:${type_value}@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove attribute
+    [Arguments]    ${type_name}    ${element}
+    [Documentation]    This key workd used for remove attribute
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmattr -nc ${type_name} ${element}
+    Action Execute
+    Action Report Should Be Found
+
+Remove element
+    [Arguments]    ${element}
+    [Documentation]    This key workd used for remove element ${element}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmelem -nc -force ${element}
+    Action Execute
+    Action Report Should Be Found
+
+Make a label type
+    [Arguments]    ${label_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    mklbtype -nc ${label_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label type
+    [Arguments]    ${label_type}    ${vob_tag}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmtype -rmall -force lbtype:${label_type}\@${vob_tag}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label
+    [Arguments]    ${label_type}    ${elements}
+    Init Action    ${ACTION_GENERIC_CLEARTOOL}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${_CLEARTOOL_PATH}
+    Action Set    ${PRT_GENERIC_CLEARTOOL_OPTIONS}    rmlabel ${label_type} ${elements}
+    Action Execute
+    Action Report Should Be Found
+
+Remove a label and make label type
+    [Arguments]    ${label_type}    ${elements}    ${vob_tag}
+    Remove a label    ${label_type}    ${elements}
+    Make a label type    ${label_type}    ${vob_tag}

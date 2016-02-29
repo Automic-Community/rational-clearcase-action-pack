@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH">
 <XHEADER state="1">
-<Title>cleartool make branch</Title>
+<Title>ClearCase Make Branch</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -55,12 +55,11 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -115,12 +114,11 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -175,12 +173,11 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -222,12 +219,11 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
-<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_BRANCHTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_BRANCHTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_ELEMENTSs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_ELEMENTS#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH"/>
+<UC4RB_RCC_MKB_NOCHECKOUTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKB_NOCHECKOUT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -296,7 +292,12 @@
 </node>
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" parent="PRPTS" type="PROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" ontop="1">
-<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" prptmode="1"/>
+<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_BRANCH" prptmode="1">
+<UC4RB_RCC_MKB_BRANCHTYPEs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKB_COMMENTs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKB_NOCHECKOUTs.00 altview="0" haslist="0">NO</UC4RB_RCC_MKB_NOCHECKOUTs.00>
+<UC4RB_RCC_MKB_ELEMENTSs.00 altview="0" haslist="0"/>
+</PRPTBOX>
 </PROMPTSET>
 </node>
 <node content="1" id="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" name="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" parent="PRPTS" type="PROMPTSET">
@@ -326,9 +327,29 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Creates a new branch in the version trees of one or more elements. 
+<DOC><![CDATA[= Action Name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH
 
-Uses mkbranch. The element on the new branch is checked out, unless you use the 'No checkout' option.]]></DOC>
+= General description =
+Creates a new branch in the version trees of one or more elements. 
+
+Uses mkbranch. The element on the new branch is checked out, unless you use the 'No checkout' option.
+
+= Inputs =
+* Cleartool path: Path to cleartool command.
+* Branch type: The branch type to be created.
+* Comment: A comment for the branch type.
+* No checkout: Set to YES to specify the -nco option, stops branch from checkout after it was created.
+* List of elements: File and directory elements to be created on the branch.
+
+= Behavior =
+Return 0 if success and > 0 for failure.
+
+= Outputs =
+None 
+
+= Rollback =
+None]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
