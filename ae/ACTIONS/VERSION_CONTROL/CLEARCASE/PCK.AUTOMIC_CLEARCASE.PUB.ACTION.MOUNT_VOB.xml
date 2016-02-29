@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOUNT_VOB">
 <XHEADER state="1">
-<Title>Cleartool mount vob</Title>
+<Title>Clearcase mount vob</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -316,7 +316,7 @@
 PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOUNT_VOB
  
 = General description =
-Mounts/activates VOBs ro access source files from a dynamic view.
+Mounts/activates VOBs to access source files from a dynamic view.
 A VOB (versioned object base) is the permanent data repository in which you store files, directories, and metadata. A file or directory is created as an element in the VOB. Each time you revise and check in a file or directory from a view, a new version is created. Mount/activate VOBs to access source files from a dynamic view. The VOB tag by which an individual VOB is referenced is the same as the full path to its mount point.
 = Inputs =
 Cleartool path: Path to cleartool
