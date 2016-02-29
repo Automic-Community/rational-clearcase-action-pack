@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_LABEL_TYPE">
 <XHEADER state="1">
-<Title>cleartool make label type</Title>
+<Title>ClearCasel Make Label Type</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,11 +55,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -114,11 +113,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -173,11 +171,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -219,11 +216,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
-<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_COMMENTs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_COMMENT#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_LABELTYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_LABELTYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
+<UC4RB_RCC_MKLT_VOB_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKLT_VOB_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -292,7 +288,12 @@
 </node>
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" parent="PRPTS" type="PROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" ontop="1">
-<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" prptmode="1"/>
+<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_LABEL_TYPE" prptmode="1">
+<UC4RB_CLEARTOOL_PATHs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKLT_LABELTYPEs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKLT_COMMENTs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKLT_VOB_TAGs.00 altview="0" haslist="0"/>
+</PRPTBOX>
 </PROMPTSET>
 </node>
 <node content="1" id="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" name="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" parent="PRPTS" type="PROMPTSET">
@@ -322,9 +323,28 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Creates one or more label types with the specified names for future use within a particular VOB. 
+<DOC><![CDATA[= Action Name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_LABEL_TYPE
 
-Uses mklbtype. After creating a label type in a VOB, you can create labels of that type in that VOB's elements, using mklabel. You cannot replace either of the predefined label types LATEST and CHECKEDOUT.]]></DOC>
+= General description =
+Creates one or more label types with the specified names for future use within a particular VOB. 
+
+Uses mklbtype. After creating a label type in a VOB, you can create labels of that type in that VOB's elements, using mklabel. You cannot replace either of the predefined label types LATEST and CHECKEDOUT.
+
+= Inputs =
+* Cleartool path: Path to cleartool command.
+* Label type: The label type to be created.
+* Comment: A comment for the label type.
+* VOB tag: A vob tag for the branch type.
+
+= Behavior =
+Return 0 if success and > 0 for failure.
+
+= Outputs =
+None 
+
+= Rollback =
+None]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
