@@ -26,10 +26,10 @@ Resource          ../../resources/keywords.txt
 6.Snapshot - Fail with invalid view path
                       NOK        ${_CLEARTOOL_PATH}            ${VIEW_TEST1}         _invalid         snapshot         0           ${ENDED_NOK}    ERROR[Directory]
 
-5.Dynamic - Fail with invalid path
+7.Dynamic - Fail with invalid path
                       NOK        ${_CLEARTOOL_PATH}_invalid    ${VIEW_TEST1}         ${VIEW_PATH1}    dynamic          0           ${ENDED_NOK}    ERROR[Directory]
 
-6.Dynamic - Fail with invalid view path
+8.Dynamic - Fail with invalid view path
                       NOK        ${_CLEARTOOL_PATH}            ${VIEW_TEST1}         _invalid         dynamic          0           ${ENDED_NOK}    ERROR[Directory]
 
 *** Keywords ***
