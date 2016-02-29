@@ -1,0 +1,3 @@
+*** Settings ***
+Documentation     Testing for action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ELEMENT
+Force Tags        MAKE_ELEMENT
