@@ -39,6 +39,12 @@ Init CLEARCASE in VVNFIBOCC01
     Set Global Variable    ${MULTI_ELEMENTS}    M:\\test_view\\test_vob\\*.xml
     Set Global Variable    ${_ROSE_ELEMENT}    M:\\test_view\\test_vob\\test_rose_elem
     Set Global Variable    ${_DIR_VOB}    M:\\test_view\\test_vob
+    Set Global Variable    ${VIEW_TEST1}    View_test1
+    Set Global Variable    ${VIEW_TEST2}    View_test2
+    Set Global Variable    ${VIEW_PATH1}    //VVNFIBOCC01/test_view/view_test1.vws
+    Set Global Variable    ${VIEW_PATH2}    //VVNFIBOCC01/test_view/view_test2.vws
+    Set Global Variable    ${VIEW_TEST3}    View_test3
+    Set Global Variable    ${VIEW_PATH3}    //VVNFIBOCC01/test_view/view_test3.vws
 
 Init CLEARCASE in VVNFIBOCC02
     [Documentation]    TODO: Write server description here
@@ -50,3 +56,9 @@ Init CLEARCASE in VVNFIBOCC02
     Set Global Variable    ${MULTI_ELEMENTS}    /view/test_view/test_vob/*.xml
     Set Global Variable    ${_ROSE_ELEMENT}    /view/test_view/test_vob/test_rose_elem
     Set Global Variable    ${_DIR_VOB}    /view/test_view/test_vob
+    Set Global Variable    ${VIEW_TEST1}    View_test1
+    Set Global Variable    ${VIEW_TEST2}    View_test2
+    Set Global Variable    ${VIEW_PATH1}    /root/view_test1.vws
+    Set Global Variable    ${VIEW_PATH2}    -host vvnfiborhel01 -hpath /root/view_test2.vws -gpath /root/view_test2.vws /root/view_test2.vws
+    Set Global Variable    ${VIEW_TEST3}    View_test3
+    Set Global Variable    ${VIEW_PATH3}    /root/view_test3.vws

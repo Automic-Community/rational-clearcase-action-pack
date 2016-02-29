@@ -54,6 +54,24 @@ Action Return Variable Should Be Equal As Integers
     ${out}=    Action Get Variable    ${variableName}
     Should Be Equal As Integers    ${out}    ${variableValue}
 
+Make View
+    [Arguments]    ${cleartool_path}    ${view_tag}    ${view_path}    ${view_type}
+    Init Action    ${ACTION_MAKE_VIEW}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_MAKE_VIEW_VIEW_TAG}    ${view_tag}
+    Action Set    ${PRT_MAKE_VIEW_VIEW_PATH}    ${view_path}
+    Action Set    ${PRT_MAKE_VIEW_VIEW_TYPE}    ${view_type}
+    Action Execute
+
+Remove View
+    [Arguments]    ${cleartool_path}    ${view_tag}    ${view_path}    ${view_type}
+    Init Action    ${ACTION_REMOVE_VIEW}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_REMOVE_VIEW_VIEW_TAG}    ${view_tag}
+    Action Set    ${PRT_REMOVE_VIEW_VIEW_PATH}    ${view_path}
+    Action Set    ${PRT_REMOVE_VIEW_VIEW_TYPE}    ${view_type}
+    Action Execute
+
 Make a branch type
     [Arguments]    ${branch_type}    ${vob_tag}
     Init Action    ${ACTION_GENERIC_CLEARTOOL}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW">
 <XHEADER state="1">
-<Title>cleartool make view</Title>
+<Title>ClearCase Make View</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,11 +55,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -114,11 +113,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -173,11 +171,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -219,11 +216,10 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
-<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_PATHs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW"/>
+<UC4RB_RCC_MKV_VIEW_TYPEs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_MKV_VIEW_TYPE#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -292,7 +288,12 @@
 </node>
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" parent="PRPTS" type="PROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" ontop="1">
-<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" prptmode="1"/>
+<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.MAKE_VIEW" prptmode="1">
+<UC4RB_CLEARTOOL_PATHs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKV_VIEW_TAGs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKV_VIEW_PATHs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_MKV_VIEW_TYPEs.00 altview="0" haslist="0">dynamic</UC4RB_RCC_MKV_VIEW_TYPEs.00>
+</PRPTBOX>
 </PROMPTSET>
 </node>
 <node content="1" id="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" name="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" parent="PRPTS" type="PROMPTSET">
@@ -322,9 +323,26 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Makes a view.
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW
 
-A view provides a directory tree of one version of each file in your project. In the view, you modify source files, compile them into object modules for testing purposes, and format them into documents. There are two types of view for use within ClearCase, Snapshot Views and Dynamic Views.]]></DOC>
+= General description =
+A view provides a directory tree of one version of each file in your project. In the view, you modify source files, compile them into object modules for testing purposes, and format them into documents. There are two types of view for use within ClearCase, Snapshot Views and Dynamic Views.
+= Inputs =
+Cleartool path: Path to cleartool command
+View tag: the view name to be created.
+View path: For a dynamic view, the dynamic view storage path or for a snapshot view, the path for the view.
+View type: Specifiy view type to make.
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
+
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>

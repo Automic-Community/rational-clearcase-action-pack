@@ -13,6 +13,9 @@
 			<Property name="view_tag" displayName="View Tag" mode="EDITABLE" type="SingleLineText">
 				<Description>The view tag name</Description>
 			</Property>
+			<Property name="view_path" displayName="View Path" mode="EDITABLE" type="SingleLineText">
+				<Description>For a dynamic view, the dynamic view storage path or for a snapshot view, the path for the view.</Description>
+        </Property>
 		</Group>
 	</Properties>
 	
@@ -34,6 +37,12 @@
             <Value>{/custom/view_tag}</Value>
             <Description>The view tag name</Description>
 		</Property> 
+		
+		<!-- View path -->
+		<Property name="/clearcase/view_path" highlighted="false">
+            <Value>{/custom/view_path}</Value>
+            <Description>For a dynamic view, the dynamic view storage path or for a snapshot view, the path for the view.</Description>
+        </Property>
 
 		<!-- SNAPSHOTS -->
 		<Property name="/snapshot/archive_path" highlighted="false">

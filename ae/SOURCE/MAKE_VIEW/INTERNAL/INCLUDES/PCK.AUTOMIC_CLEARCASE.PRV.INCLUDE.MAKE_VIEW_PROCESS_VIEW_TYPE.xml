@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<JOBI name="PCK.AUTOMIC_CLEARCASE.PRV.INCLUDE.MAKE_VIEW_PROCESS_VIEW_TYPE">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<SCRIPT mode="1" state="1">
+<MSCRI><![CDATA[:IF &UC4RB_RCC_MKV_VIEW_TYPE# <> 'dynamic' OR 'snapshot'
+: P "ERROR: View type must be either dynamic or snapshot."
+: EXIT 1
+:ENDIF
+:IF &UC4RB_RCC_MKV_VIEW_TYPE# = 'dynamic'
+: SET &UC4RB_RCC_MKV_VIEW_TYPE# = "-tag &UC4RB_RCC_MKV_VIEW_TAG#"
+:ENDIF
+:IF &UC4RB_RCC_MKV_VIEW_TYPE# = 'snapshot'
+: SET &UC4RB_RCC_MKV_VIEW_TYPE# = "-snapshot"
+:ENDIF]]></MSCRI>
+</SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</JOBI>
+</uc-export>
