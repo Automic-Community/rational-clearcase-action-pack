@@ -1,0 +1,47 @@
+*** Settings ***
+Suite Setup       Suite Setup
+Suite Teardown    Suite Teardown
+Default Tags      win unix
+Test Template     Set Config Spec Template
+Resource          ../../resources/keywords.txt
+
+*** Test Cases ***    OK_NOK    CLEARTOOL PATH                SPEC TAG      SPEC FILE            RETCODE    STATUS          REPORT MESSAGE
+1.Dynamic - Successful with normal case
+                      OK        ${_CLEARTOOL_PATH}            View_test3    -default             0          ${ENDED_OK}     ${EMPTY}
+
+2.Dynamic - Successful with empty path
+                      OK        ${EMPTY}                      View_test3    -default             0          ${ENDED_OK}     ${EMPTY}
+
+3.Dynamic - Fail with invalid path
+                      NOK       ${_CLEARTOOL_PATH}_invalid    View_test3    Test_view            0          ${ENDED_NOK}    ${EMPTY}
+
+4.Dynamic - Fail with invalid spec
+                      NOK       ${_CLEARTOOL_PATH}            View_test3    Test_view_invalid    0          ${ENDED_NOK}    ${EMPTY}
+
+*** Keywords ***
+Set Config Spec Template
+    [Arguments]    ${OK_NOK}    ${cleartool_path}    ${spec_tag}    ${spec_file}    ${returnCode}    ${returnStatus}
+    ...    ${reportMessage}
+    [Documentation]    This template used for testing action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC with inputs
+    ...    - ${cleartool_path}: Path to cleartool
+    ...    - ${spec_tag}: The view name where the config spec is to be set. If not specified, the current view is assumed.
+    ...    - ${spec_file}: The cspec filename to update the config spec to or options: (-current, -default, -stream).
+    ...    - ${returnCode}: return code of execution
+    ...    - ${returnStatus}: return status of execution
+    ...    - ${reportMessage}: message should be contained in execution report
+    Init Action    ${ACTION_SET_CONFIG_SPEC}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_SET_CONFIG_SPEC_TAG}    ${spec_tag}
+    Action Set    ${PRT_SET_CONFIG_SPEC_FILE}    ${spec_file}
+    Action Execute
+    Action Report Should Be Found
+    Run Keyword If    '${OK_NOK}' == 'OK'    Action Return Code Should Be    ${returnCode}
+    Run Keyword If    '${OK_NOK}' == 'NOK'    Action Return Code Should Not Equal    ${returnCode}
+    Action Return Status Should Be    ${returnStatus}
+    Run Keyword If    '${OK_NOK}' == 'OK'    Action Report Should Contain    ${reportMessage}
+
+Suite Setup
+    Make View    ${_CLEARTOOL_PATH}    ${VIEW_TEST3}    ${VIEW_PATH3}    dynamic
+
+Suite Teardown
+    Remove View    ${_CLEARTOOL_PATH}    ${VIEW_TEST3}    ${VIEW_PATH3}    dynamic

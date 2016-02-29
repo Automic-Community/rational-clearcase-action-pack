@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
 <JOBP AllowExternal="1" name="PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC">
 <XHEADER state="1">
-<Title>cleartool set config spec</Title>
+<Title>ClearCase Set Config Spec</Title>
 <ArchiveKey1/>
 <ArchiveKey2/>
 <Active>1</Active>
@@ -19,9 +19,9 @@
 <ExtRepAll>0</ExtRepAll>
 <ExtRepNone>0</ExtRepNone>
 <IntAccount/>
-<AutoDeactNo>1</AutoDeactNo>
+<AutoDeactNo>0</AutoDeactNo>
 <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
-<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<AutoDeactErrorFree>1</AutoDeactErrorFree>
 <DeactWhen/>
 <AutoDeactAlways>0</AutoDeactAlways>
 <DeactDelay>0</DeactDelay>
@@ -55,10 +55,9 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -113,10 +112,9 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -171,10 +169,9 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -216,10 +213,9 @@
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" parent="PPRPTS" type="PPROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
 <PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC">
-<UC4RB_CLEARTOOL_UNIX_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_UNIX_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_CLEARTOOL_WIN_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_WIN_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
-<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_CLEARTOOL_PATHs.00 ReadFromTable="OPSE" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_CLEARTOOL_PATH#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_CSPECs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_CSPEC#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
+<UC4RB_RCC_SETCS_TAGs.00 ReadFromTable="OPUD" altview="0" haslist="0" msginsert="" msgnr="" promptname="UC4RB_RCC_SETCS_TAG#" promptsetname="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC"/>
 </PRPTBOX>
 </PROMPTSET>
 </node>
@@ -288,7 +284,10 @@
 </node>
 <node content="1" id="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" parent="PRPTS" type="PROMPTSET">
 <PROMPTSET name="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" ontop="1">
-<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" prptmode="1"/>
+<PRPTBOX promptset="PCK.AUTOMIC_CLEARCASE.PRV.PROMPTSET.SET_CONFIG_SPEC" prptmode="1">
+<UC4RB_RCC_SETCS_TAGs.00 altview="0" haslist="0"/>
+<UC4RB_RCC_SETCS_CSPECs.00 altview="0" haslist="0"/>
+</PRPTBOX>
 </PROMPTSET>
 </node>
 <node content="1" id="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" name="PCK.ITPA_SHARED.PRV.PROMPTSET.OVERWRITE_AGENT" parent="PRPTS" type="PROMPTSET">
@@ -318,7 +317,25 @@
 <MSCRI/>
 </SCRIPT>
 <DOCU_Docu state="1" type="text">
-<DOC><![CDATA[Changes the config spec of the current view to the contents of the specified config spec file.]]></DOC>
+<DOC><![CDATA[= RB name =
+PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC
+
+= General description =
+Changes the config spec of the current view to the contents of the specified config spec file.
+= Inputs =
+Cleartool path: Path to cleartool command
+View tag: the view name to be created.
+View path: The cspec filename to update the config spec to or options: (-current, -default, -stream).
+= Behavior =
+0 if successful, >0 otherwise.
+= Outputs =
+
+= Rollback =
+(none)
+= Logging =
+(none)
+= Example =
+(none)]]></DOC>
 </DOCU_Docu>
 </JOBP>
 </uc-export>
