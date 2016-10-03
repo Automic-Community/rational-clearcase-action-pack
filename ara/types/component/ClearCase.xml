@@ -254,7 +254,7 @@
 			<List>Yes#;#No</List>
 		</Property>
 		
-		
+
 		<!-- SCP -->
 		<Property name="/source/scp/host" highlighted="false">
 			<Description>Host to connect to.</Description>
