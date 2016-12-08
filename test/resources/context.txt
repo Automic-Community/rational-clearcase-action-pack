@@ -27,7 +27,7 @@ ${_DIR_VOB}       /
 Init Agent
     [Documentation]    Requirement
     Run Keyword If    '${ENV}' == 'VVNFIBOCC01' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCC01
-    Run Keyword If    '${ENV}' == 'VVNFIBOCC02' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBOCC02
+    Run Keyword If    '${ENV}' == 'VVNFIBORHEL01' and '${APP}' == 'CLEARCASE'    Init CLEARCASE in VVNFIBORHEL01
 
 Init CLEARCASE in VVNFIBOCC01
     [Documentation]    TODO: Write server description here
@@ -47,9 +47,9 @@ Init CLEARCASE in VVNFIBOCC01
     Set Global Variable    ${VIEW_TEST3}    View_test3
     Set Global Variable    ${VIEW_PATH3}    //VVNFIBOCC01/test_view/view_test3.vws
 
-Init CLEARCASE in VVNFIBOCC02
+Init CLEARCASE in VVNFIBORHEL01
     [Documentation]    TODO: Write server description here
-    Set Global Variable    ${_AGENT}    VVNFIBOCC02
+    Set Global Variable    ${_AGENT}    VVNFIBORHEL01
     Set Global Variable    ${_LOGIN}    UC4_RL.LOGIN.ALL
     Set Global Variable    ${_CLEARTOOL_PATH}    /opt/ibm/RationalSDLC/clearcase/bin
     Set Global Variable    ${_FILE_ELEMENT}    /view/test_view/test_vob/test_file_elem.txt
