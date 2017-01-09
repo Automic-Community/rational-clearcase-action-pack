@@ -1,5 +1,5 @@
 *** Settings ***
-Default Tags      win unix
+Default Tags      win    unix
 Test Template     Make Attribute Type Template
 Resource          ../../resources/keywords.txt
 

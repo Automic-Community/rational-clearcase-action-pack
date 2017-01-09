@@ -1,0 +1,4 @@
+--doc This argument file contains execution order of package ClearCase
+# This is a comment
+Init_Environments.txt
+testcases/GENERIC_CLEARTOOL/

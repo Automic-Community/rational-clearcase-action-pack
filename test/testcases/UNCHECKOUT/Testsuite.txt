@@ -1,10 +1,11 @@
 *** Settings ***
-Default Tags      win unix
+Default Tags      win    unix
 Test Template     Uncheckout Template
 Resource          ../../resources/keywords.txt
 
 *** Test Cases ***    OK_NOK                              CLEARTOOL PATH                List of Elements            Keep    RETCODE    STATUS          REPORT MESSAGE
 1.Successful with 1 element
+    [Tags]  BASIC    
                       [Setup]                             Checkout elements             ${_FILE_ELEMENT}
                       OK                                  ${_CLEARTOOL_PATH}            ${_FILE_ELEMENT}            YES     0          ${ENDED_OK}     Checkout cancelled for
                       #2.Successful with multi element

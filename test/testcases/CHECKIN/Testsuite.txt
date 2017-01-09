@@ -1,6 +1,6 @@
 *** Settings ***
 Suite Setup
-Default Tags      win unix
+Default Tags      win    unix
 Test Template     Checkin Template
 Resource          ../../resources/keywords.txt
 

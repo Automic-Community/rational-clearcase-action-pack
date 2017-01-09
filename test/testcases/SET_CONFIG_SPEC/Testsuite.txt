@@ -1,7 +1,7 @@
 *** Settings ***
 Suite Setup       Suite Setup
 Suite Teardown    Suite Teardown
-Default Tags      win unix
+Default Tags      win    unix
 Test Template     Set Config Spec Template
 Resource          ../../resources/keywords.txt
 
