@@ -1,5 +1,5 @@
 *** Settings ***
-Default Tags      win    unix    SMOKE_TEST
+Default Tags     ALL     win    unix    SMOKE_TEST
 Test Template     Generic Cleartool Template
 Resource          ../../resources/keywords.txt
 

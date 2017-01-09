@@ -1,5 +1,5 @@
 *** Settings ***
-Default Tags      win    unix
+Default Tags     ALL     win    unix
 Test Template     Make label type Template
 Resource          ../../resources/keywords.txt
 
