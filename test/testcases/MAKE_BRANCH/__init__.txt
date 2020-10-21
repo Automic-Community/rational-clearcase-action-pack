@@ -1,3 +1,0 @@
-*** Settings ***
-Documentation     Testing for action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH
-Force Tags        MAKE_BRANCH

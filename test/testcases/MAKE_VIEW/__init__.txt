@@ -1,3 +1,0 @@
-*** Settings ***
-Documentation     Testing for action PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL
-Force Tags        MAKE_VIEW
