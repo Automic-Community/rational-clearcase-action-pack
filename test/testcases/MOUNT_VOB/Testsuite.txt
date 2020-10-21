@@ -1,0 +1,39 @@
+*** Settings ***
+Default Tags     ALL     win    unix
+Test Template     Mount VOB Template
+Resource          ../../resources/keywords.txt
+
+*** Test Cases ***    OK_NOK     CLEARTOOL PATH                VOB TAG               RETCODE    STATUS          REPORT MESSAGE
+1.Successful with valid input
+                      [Setup]    Unmount VOB                   ${VOB_TAG}
+                      OK         ${_CLEARTOOL_PATH}            ${VOB_TAG}            0          ${ENDED_OK}     ${EMPTY}
+
+2.Successful with empty path
+                      [Setup]    Unmount VOB                   ${VOB_TAG}
+                      OK         ${EMPTY}                      ${VOB_TAG}            0          ${ENDED_OK}     ${EMPTY}
+
+3.Fail with invalid path
+                      NOK        ${_CLEARTOOL_PATH}_invalid    ${VOB_TAG}            0          ${ENDED_NOK}    ${EMPTY}
+
+4.Fail with invalid VOB Tag
+                      NOK        ${_CLEARTOOL_PATH}            ${VOB_TAG}_invalid    0          ${ENDED_NOK}    ${EMPTY}
+
+*** Keywords ***
+Mount VOB Template
+    [Arguments]    ${OK_NOK}    ${cleartool_path}    ${VOB_Tag}    ${returnCode}    ${returnStatus}    ${reportMessage}
+    [Documentation]    This template used for testing action Unmount VOB Tag with inputs
+    ...    - ${cleartool_path}: Path to cleartool
+    ...    - ${VOB_Tag}: View tag name.
+    ...    - ${returnCode}: return code of execution
+    ...    - ${returnStatus}: return status of execution
+    ...    - ${reportMessage}: message should be contained in execution report
+    #Setup#
+    Init Action    ${ACTION_MOUNT_VOB}
+    Action Set    ${PRT_CLEARTOOL_PATH}    ${cleartool_path}
+    Action Set    ${PRT_MOUNT_VOB_TAG}    ${VOB_Tag}
+    Action Execute
+    Action Report Should Be Found
+    Run Keyword If    '${OK_NOK}' == 'OK'    Action Return Code Should Be    ${returnCode}
+    Run Keyword If    '${OK_NOK}' == 'NOK'    Action Return Code Should Not Equal    ${returnCode}
+    Action Return Status Should Be    ${returnStatus}
+    Action Report Should Contain    ${reportMessage}

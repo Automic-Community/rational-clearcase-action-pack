@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<DOCU name="PCK.AUTOMIC_CLEARCASE.PUB.DOC">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<DOCU_Docu state="1" type="text">
+<DOC><![CDATA[ClearCase package contains actions for executing IBM ClearCase command by compiling a cleartool command on the Automation Engine.
+Cleartool is the primary command-line interface to ClearCase. It has a rich set of subcommands that create, modify, and manage the information in VOBs and views. Command options can be in any order, but all options must precede any nonoption arguments (typically, names of files, versions, and branches).
+The cleartool command is the command-line interface (CLI) to perform Rational® ClearCase®operations. It has a set of subcommands, which create, modify, and manage the information in VOBs and views.
+You can use cleartool in either single-command mode or interactive mode. To use a single cleartool subcommand from a shell, use this syntax:
+cleartool subcommand [ options-and-args ] 
+When entering a series of subcommands, you may find it more convenient to type cleartool without any arguments. This places you at the interactive-mode prompt:
+cleartool> 
+You can then issue any number of commands, ending with quit to return to the original shell. The cleartool commands can be continued on additional lines.
+On Linux® and the UNIX® system, use the backslash character (\), as with supported shells.
+On the Windows® system, use the circumflex character (^). The system prompts with More? and waits further input.
+Command options can be in any order, but all options must precede any nonoption arguments (typically, names of files, versions, and branches).
+The exit status from single-command mode depends on whether the command succeeded (zero exit status) or generated an error message (nonzero exit status).
+For more information, see the cleartool reference page in the IBM Rational ClearCase Command Reference. For information about input and output for cleartool commands, see pathnames_ccase and fmt_ccase in the IBM Rational ClearCase Command Reference.
+
+=Functionality=
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.GENERIC_CLEARTOOL: Clearcase tool executed with options passed as a parameter.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOUNT_VOB: Mounts/activates VOBs to access source files from a dynamic view.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNMOUNT_VOB: Unmounts/deactivates a VOB.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_VIEW: A view provides a directory tree of one version of each file in your project. In the view, you modify source files, compile them into object modules for testing purposes, and format them into documents. There are two types of view for use within ClearCase, Snapshot Views and Dynamic Views.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.REMOVE_VIEW: Removes a view or removes view-related records from a VOB.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.SET_CONFIG_SPEC: Changes the config spec of the current view to the contents of the specified config spec file.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.START_VIEW: Starts or connects to a dynamic view's view_server process. The startview command enables processes on the local host to access a dynamic view.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.END_VIEW: Deactivates the specified view. The exact behavior varies according to the kind of view.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKOUT: Checking out makes file or directory versions writable in your view.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.UNCHECKOUT: Cancels a checkout of the elements.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.CHECKIN: To check in files and directories in the current view.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ATTR_TYPE: The mkattype command creates one or more attribute types for future use within a VOB. After creating an attribute type in a VOB, you can use mkattr to attach attributes of that type to objects in that VOB.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ATTR: The mkattr command attaches an attribute to one or more objects. You can specify the objects themselves on the command line, or you can specify a particular derived object. In the latter case, mkattr attaches attributes to versions only?some or all of the versions that were used to build that derived object.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_ELEMENT: The mkelem command creates one or more new elements. By default, a new element can be created in a directory only if that directory element is checked out. mkelem appends an appropriate line to the directory's checkout comment.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MOVE: Moves or renames an element or VOB link. Elements must be in the same VOB. The directory where the element to be moved or renamed resides and the destination directory must be checked out.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH_TYPE: Creates one or more branch types with the specified names for future use within a particular VOB.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_BRANCH: Creates a new branch in the version trees of one or more elements.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_LABEL: Attaches version labels to versions of elements.
+* PCK.AUTOMIC_CLEARCASE.PUB.ACTION.MAKE_LABEL_TYPE: Creates one or more label types with the specified names for future use within a particular VOB.
+
+=Supported Platforms=
+
+The functions run on the following platforms:
+
+* Windows Server 2008 R2
+* Windows Server 2008
+* Windows Server 2003
+* Linux Redhat
+* Solaris 10
+
+=Setup=
+
+* Cleartool should be available on the executing host
+
+=Rollback=
+
+The ClearCase actions do not support rollbacks yet.
+]]></DOC>
+</DOCU_Docu>
+</DOCU>
+</uc-export>
